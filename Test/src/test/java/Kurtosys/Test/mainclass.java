@@ -18,7 +18,7 @@ public static WebDriver driver;
 	public static void initialization() throws InterruptedException 
 	{
 		
-		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\selenium_softwares\\Drivers\\chromedriver.exe"); // to copy the path : Shift+Right click  on chrome driver copy as path and paste it  
+		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\selenium_softwares\\Drivers\\chromeDriver\\chromedriver_win32 (2)\\chromedriver.exe"); // to copy the path : Shift+Right click  on chrome driver copy as path and paste it  
 		
 		driver= new ChromeDriver();
 		driver.get("https://www.kurtosys.com/");
